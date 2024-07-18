@@ -1,10 +1,22 @@
-import logo from '../assets/yosef-logo.png'
+import logo from '../assets/logo.png'
+import { useState } from 'react'
 
 export default function Header(){
+    const [navbar, setNavbar] = useState(false);
+    const changeBackground = () =>{
+        if(window.scrollY >= 182){
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
     return(
-        <nav className='shadow'>
-            <div className='flex justify-around items-center'>
-                <img src={logo} alt="" className='max-w-[180px]'/>
+        <nav className={navbar ? 'navbar active' : 'navbar'}>
+            <div className={navbar ? 'nav-container active' : 'nav-container'}>
+                <img src={logo} alt="" className='max-w-[140px]'/>
                 <ul className='flex gap-10'>
                     <li className='nav-items'>Home</li>
                     <li className='nav-items'>About</li>

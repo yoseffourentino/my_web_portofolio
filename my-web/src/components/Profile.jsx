@@ -11,21 +11,21 @@ export default function Profile(){
                 <h1 className='text-[3rem]'>Yosef Fourentino Wicaksono</h1>
                 <h4 className='text-[1.5rem] pt-3'>Frontend Web Developer</h4>
                 <p className='pt-10 text-justify'>hi, im Yosef Fourentino Wicaksono, but you can call me Yosef or most of my friend calls me Ocep, i am a final year student at Multimedia Nusantara University, majoring in Informatics. Basically i am interested to be a front-end web developer. </p>
-                <p className='pt-10 flex gap-3'>
+                <p className='pt-10 flex gap-5 items-center'>
                     <span>Follow me:</span>
                     <Link to='https://www.instagram.com/yosef.fw/'>
-                        <img className='w-[25px]' src={instagram} alt=""/>
+                        <img className='img-icon w-[50px] bg-[#EBF4F6] p-3 rounded-[20px] hover:bg-[#5eabad]' src={instagram} alt=""/>
                     </Link>
                     <Link to='https://github.com/yoseffourentino'>
-                    <img className='w-[25px]' src={github} alt=""/>
+                        <img className='img-icon w-[50px] bg-[#EBF4F6] p-3 rounded-[20px] hover:bg-[#5eabad]' src={github} alt=""/>
                     </Link>
                     <Link to='https://www.linkedin.com/in/yoseffourentino'>
-                    <img className='w-[25px]' src={linkedin} alt=""/>
+                        <img className='img-icon w-[50px] bg-[#EBF4F6] p-3 rounded-[20px] hover:bg-[#5eabad]' src={linkedin} alt=""/>
                     </Link>
                 </p>
             </div>
             <div>
-                <img src={fotoOcep} alt="" />
+                <img src={fotoOcep} alt="" className='w-[500px]'/>
             </div>
         </div>
     )
