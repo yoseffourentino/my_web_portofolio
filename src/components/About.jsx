@@ -2,6 +2,7 @@ import ocep from "../assets/ocep.png"
 
 export default function About(){
     return(
+        <div>
         <div className="bg-[#088395] flex justify-center items-center">
             <div className="max-w-[500px]">
                 <img src={ocep} alt="" />
@@ -12,6 +13,10 @@ export default function About(){
                 <p className="text-[#d0f6ff]"> I'm a cheerful person who loves to chat. One of my favorite ways to unwind when I'm tired is to hang out at cafes with my close friends.</p>
                 <button className="bg-[#d0f6ff] w-[200px] p-[25px] rounded-[10px] font-bold">Download CV</button>
             </div>
+        </div>
+        <div className="h-[400px] bg-[#EBF4F6]">
+            
+        </div>
         </div>
     )
 }
