@@ -40,3 +40,8 @@
 .img-icon:hover{
   transition: 0.5s;
 }
+
+.about-content{
+  border-left: 3px solid rgba(116, 176, 243, 1);
+  padding-left: 30px;
+}

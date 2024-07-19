@@ -1,4 +1,4 @@
-import fotoOcep from '../assets/ocep.png';
+import fotoOcep from '../assets/ocep-2.png';
 import instagram from '../assets/instagram.png';
 import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 
 export default function Profile(){
     return(
-        <div className='flex justify-evenly'>
-            <div className='max-w-[500px] flex-col justify-center flex'>
+        <div className='flex justify-evenly mt-[20px]'>
+            <div className='max-w-[600px] flex-col justify-center flex'>
                 <h1 className='text-[3rem]'>Yosef Fourentino Wicaksono</h1>
                 <h4 className='text-[1.5rem] pt-3'>Frontend Web Developer</h4>
                 <p className='pt-10 text-justify'>hi, im Yosef Fourentino Wicaksono, but you can call me Yosef or most of my friend calls me Ocep, i am a final year student at Multimedia Nusantara University, majoring in Informatics. Basically i am interested to be a front-end web developer. </p>
@@ -25,7 +25,7 @@ export default function Profile(){
                 </p>
             </div>
             <div>
-                <img src={fotoOcep} alt="" className='w-[500px]'/>
+                <img src={fotoOcep} alt="" className='w-[370px]'/>
             </div>
         </div>
     )

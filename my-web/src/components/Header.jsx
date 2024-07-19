@@ -4,7 +4,7 @@ import { useState } from 'react'
 export default function Header(){
     const [navbar, setNavbar] = useState(false);
     const changeBackground = () =>{
-        if(window.scrollY >= 182){
+        if(window.scrollY >= 45){
             setNavbar(true)
         }else{
             setNavbar(false)
