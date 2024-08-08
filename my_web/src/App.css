@@ -45,3 +45,19 @@
   border-left: 3px solid rgba(116, 176, 243, 1);
   padding-left: 30px;
 }
+.skills{
+  border-right: 3px solid #201E43;
+}
+
+.expertise{
+  border-left: 3px solid #201E43;
+  padding-left: 40px;
+}
+
+.logo{
+  background-color: #ebebeb;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 4px 3px 5px 0px rgba(148,148,148,0.48);
+
+}

@@ -20,7 +20,7 @@ export default function Header(){
                 <ul className='flex gap-10'>
                     <li className='nav-items'>Home</li>
                     <li className='nav-items'>About</li>
-                    <li className='nav-items'>Service</li>
+                    <li className='nav-items'>Skills</li>
                     <li className='nav-items'>Portofolio</li>
                     <li className='nav-items'>Contact</li>
                 </ul>
