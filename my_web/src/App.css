@@ -61,3 +61,7 @@
   box-shadow: 4px 3px 5px 0px rgba(148,148,148,0.48);
 
 }
+
+.slick-slide > div {
+  margin: 0 10px;
+}

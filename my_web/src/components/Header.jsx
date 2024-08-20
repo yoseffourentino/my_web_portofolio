@@ -1,5 +1,6 @@
 import logo from '../assets/logo.png'
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Header(){
     const [navbar, setNavbar] = useState(false);
@@ -19,7 +20,7 @@ export default function Header(){
                 <img src={logo} alt="" className='max-w-[140px]'/>
                 <ul className='flex gap-10'>
                     <li className='nav-items'>Home</li>
-                    <li className='nav-items'>About</li>
+                    <li className='nav-items'><Link to='/about'>About</Link></li>
                     <li className='nav-items'>Skills</li>
                     <li className='nav-items'>Portofolio</li>
                     <li className='nav-items'>Contact</li>

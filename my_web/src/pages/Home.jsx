@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Portofolio from "../components/Portofolio";
 import Services from "../components/Services";
 import Profile from "../components/Profile"
+import Footer from "../components/Footer";
 
 export default function Home(){
     return(
@@ -14,6 +15,7 @@ export default function Home(){
             <Services/>
             <Portofolio/>
             <Contact/>
+            <Footer/>
         </>
     )
 }
