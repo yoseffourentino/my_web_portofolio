@@ -2,29 +2,29 @@
     {
         "id": 1,
         "img": "src/assets/porto-1.png",
-        "title": "Web Title",
+        "title": "Portofolio Maker",
         "desc": "Sebuah website yang mantep banget dah ah pokoknya",
         "link": "https://portfi.online/"
     },
     {
         "id": 2,
         "img": "src/assets/porto-1.png",
-        "title": "Web Title",
-        "desc": "Sebuah website yang mantep banget dah ah pokoknya",
-        "link": "https://portfi.online/"
+        "title": "-",
+        "desc": "-",
+        "link": "-"
     },
     {
         "id": 3,
         "img": "src/assets/porto-1.png",
-        "title": "Web Title",
-        "desc": "Sebuah website yang mantep banget dah ah pokoknya",
-        "link": "https://portfi.online/"
+        "title": "-",
+        "desc": "-",
+        "link": "-"
     },
     {
         "id": 4,
         "img": "src/assets/porto-1.png",
-        "title": "Web Title",
-        "desc": "Sebuah website yang mantep banget dah ah pokoknya",
-        "link": "https://portfi.online/"
+        "title": "-",
+        "desc": "-",
+        "link": "-"
     }
 ]
