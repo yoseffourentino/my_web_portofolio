@@ -46,11 +46,12 @@
   border-left: 3px solid rgba(116, 176, 243, 1);
   padding-left: 30px;
 }
-.skills{
+.line-kanan{
   border-right: 3px solid #201E43;
+  padding-right: 40px;
 }
 
-.expertise{
+.line-kiri{
   border-left: 3px solid #201E43;
   padding-left: 40px;
 }
