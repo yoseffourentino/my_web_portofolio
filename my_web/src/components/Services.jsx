@@ -22,19 +22,19 @@ export default function Services(){
                     <h1 className="text-[2.2rem] mb-[20px] text-[#201E43] font-bold">What do i offer?</h1>
                     <p className="text-[1.2rem] font-thin text-end">Although I describe myself as a frontend developer, I can also be a fullstack developer. I can provide services as a frontend developer, backend developer, and UI/UX designer. I really enjoy building projects from scratch because it allows me to be as creative as my mind can be.</p>
                 </div>
-                <div className="max-w-[1300px]">
-                    <div className="grid-cols-3 grid bg-[#ffd561]">
-                        <div>
+                <div className="max-w-[1300px] bg-[#ffd561] rounded-[15px] shadow-2xl">
+                    <div className="grid-cols-3 grid p-[30px] gap-5">
+                        <div className="flex flex-col gap-6 justify-center items-center bg-[#ffe682] rounded-[15px] p-[20px]">
                             <img src={felogo} alt="" className="max-w-[250px]"/>
-                            <h2>Frontend Development</h2>
+                            <h2 className="bg-[#72d4c3] w-[100%] text-center rounded-[15px]">Frontend Development</h2>
                         </div>
-                        <div>
+                        <div className="flex flex-col gap-6 justify-center items-center bg-[#ffe682] rounded-[15px] p-[20px]">
                             <img src={belogo} alt="" className="max-w-[250px]"/>
-                            <h2>Backend Development</h2>
+                            <h2 className="bg-[#72d4c3] w-[100%] text-center rounded-[15px]">Backend Development</h2>
                         </div>
-                        <div>
+                        <div className="flex flex-col gap-6 justify-center items-center bg-[#ffe682] rounded-[15px] p-[20px]">
                             <img src={uiuxlogo} alt="" className="max-w-[250px]"/>
-                            <h2>UI/UX Designer</h2>
+                            <h2 className="bg-[#72d4c3] w-[100%] text-center rounded-[15px]">UI/UX Designer</h2>
                         </div>
                     </div>
                 </div>
